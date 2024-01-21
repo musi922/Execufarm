@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+ 
+   
+    color: #fff;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222327;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: #29fd53;
+   
+}
+.navbar a.active{
+    color: #29fd53;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+.main a{
+    margin-left: 25px;
+    margin-left: 10px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+    padding: 5px 0;
+    margin: 0px 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    color: #29fd53;
+}
+.user i{
+    color: #29fd53;
+    
+    margin-right: 7px;
+}
+.main a:hover{
+    color: #29fd53;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity by changing the alpha value (0.5 for 50% opacity) */
+}
+.heading {
+    position: absolute;
+    top: 35%; /* Adjust the top position to vertically center the heading */
+
+    /* Center the heading both vertically and horizontally */
+    color: white; /* Set the text color to white or any desired color */
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+.head{
+    margin-left: 20%;
+
+    margin-top: -10%;
+    position: absolute;
+    width: 100%;
+}
+.para{
+    margin-left: 39%;
+    width: 71%;
+    margin-top: 2%;
+    font-size: 19px;
+   
+}
+/* styles.css */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #29fd53;
+  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 66%;
+    margin-top: 5%;
+
+    /* Add a box shadow for a raised effect */
+ 
+
+    /* Hover effect */
+    &:hover {
+        background-color: #2577a9;
+    }
+}
+.yaa{
+    font-size: 36px;
+    color: #29fd53;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+}
+.yoo{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 20px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+.image-box img {
+    max-width: 90%;
+    border: 1px solid none;
+    border-radius: 8px;
+    height: 60vh;
+    display: block;
+    margin-left: 4%;
+}
+.over{
+    position: absolute;
+    margin-left: 4%;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 97.2%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid none;
+    border-radius: 5px;
+}
+
+/* styles.css */
+.content-container {
+    display: flex;
+}
+
+.image-box {
+    flex: 1;
+    position: relative;
+}
+
+
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.text-box {
+    flex: 1;
+    padding: 23px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.text-box h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* styles.css */
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.blog-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-box h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.blog-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+ /* .container {
+            background-color: gray;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 500px;
+            height: 74vh;
+            margin-top: 3%;
+            text-align: center;
+            margin-left: 30%;
+            
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #888;
+        } */
+
+        
+        
+        body {
+            background-color: #ffffff; /* White background color for the body */
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3%;
+        }
+        
+        .sign-in-form {
+            background-color: #f0f0f0; /* Light gray background color for the form */
+            border: 2px solid #ccc; /* Border color */
+            padding: 20px;
+            width: 500px;
+            height: 100%;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333; /* Text color */
+        }
+        
+        label {
+            display: block;
+            margin: 10px 0;
+            color: #555; /* Label text color */
+        }
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #4caf50; /* Green button color */
+            color: #ffffff; /* Button text color */
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+
+        .footer {
+            margin-top: 60px;
+            color: #888;
+            font-size: 20px;
+        }
+        
+        
