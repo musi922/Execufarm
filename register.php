@@ -13,7 +13,7 @@
         <img src="execufarm.png" style="height: 11vh; margin-left: 1px; border-radius: 10px;"/>
 
                 <ul class="navbar">
-                    <li><a href="Homepage.php" class="active">HOME</a></li>
+                    <li><a href="index.php" class="active">HOME</a></li>
                     <li><a href="./about.html">About</a></li>
                     
                     <li><a href="./news.php">Blog</a></li>

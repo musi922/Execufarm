@@ -70,7 +70,7 @@ $conn->close();  // Close the database connection
         <a href="#farmers" class="nav-link">Updates</a>
         <a href="./blog.php" class="nav-link">Add Blog</a>
         <a href="./blogs.php" class="nav-link">Blogs</a><br><br>
-        <a href="Homepage.php" class="nav-link">Logout</a>
+        <a href="index.php" class="nav-link">Logout</a>
         <!-- Add more links for other sections -->
 
         <!-- Static log section -->
